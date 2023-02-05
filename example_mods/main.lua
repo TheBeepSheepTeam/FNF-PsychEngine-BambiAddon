@@ -9,8 +9,8 @@ function getMainStuff()
     saveFile = 'PsychEngineFoxaAddon', --name of the save file for your mod
     flashingStateText = '', --this gets added on to the normal flashing state text, use it if you're mod has like super flashing lights or something
     initialState = nil, --set this to skip to a custom state on startup
-    updateTxtLink = 'https://raw.githubusercontent.com/TheBeepSheepTeam/FNF-PsychEngine-FoxaAddon/main/gitVersion.txt', --this is a link to an online file with the current mod's vesrion on it
-    updateLink = 'https://github.com/TheBeepSheepTeam/FNF-PsychEngine-FoxaAddon/releases', --where to send the user for the latest release
+    updateTxtLink = 'https://raw.githubusercontent.com/TheBeepSheepTeam/FNF-PsychEngine-FoxaAddonNew/main/gitVersion.txt', --this is a link to an online file with the current mod's vesrion on it
+    updateLink = 'https://github.com/TheBeepSheepTeam/FNF-PsychEngine-FoxaAddonNew/releases', --where to send the user for the latest release
     outdatedText = [[
     Sup bro, looks like you're running an
     outdated version of Psych Engine (_VERSION),
