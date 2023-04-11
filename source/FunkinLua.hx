@@ -116,7 +116,7 @@ class FunkinLua
 			things[t] = st;
 			
 			for i,v in pairs(t) do
-				st[i] = type(v) == \"table\" and tableCopy(v,{},copyMeta,x + 1) or v;
+				st[i] = type(v) == \"table\" and table.copy(v,{},copyMeta,x + 1) or v;
 			end
 			if (x <= 0) then getfenv().things = {}; end
 			
@@ -3670,7 +3670,7 @@ class FunkinLua
 				});
 		}
 		addCallback('controls', function(control:String) {
-			return Reflect.field(PlayerSettings.player1.controls, control);
+			return Reflect.getProperty(PlayerSettings.player1.controls, control);
 		});
 		call('onCreate', []);
 		#end
